@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    background-image: url('/travelRecommendationExerciseCoursera/static/pexels-evgeny-tchebotarev-1058775-2187456.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    background: linear-gradient(#393e469c,rgba(0, 0, 0, 0.664))
+}
+
+#navLogo {
+    line-height: normal;
+    display: block;
+    width: 16px;
+    margin-right: 5px;
+}
