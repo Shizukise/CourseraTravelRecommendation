@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     font-size: large;
     font-weight: bold;
-    background: linear-gradient(#212224c2,rgba(0, 0, 0, 0.808));
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.808),#212224c2,rgba(0, 0, 0, 0.808));
     max-height: 60px;
 }
 
@@ -53,6 +53,7 @@ body {
     padding: 9px;
     padding-right: 60px;
     width: 350px;
+    color: #00ADB5;
 }
 
 .searchBtn {
@@ -62,12 +63,18 @@ body {
     height: 80%;
     border-radius: 10px;
     width: 80px;
-    background-color: #00acb5ce;
+    background-color: #0a6d72ce;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 #search button + button {
     right: 90px;
 }
 
+.pageLink {
+    text-decoration: none;
+    color: white;
+
+}
