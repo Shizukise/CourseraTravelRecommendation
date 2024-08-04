@@ -7,17 +7,67 @@ body {
 
 #navbar {
     color: white;
-    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: large;
     font-weight: bold;
-    background: linear-gradient(#393e469c,rgba(0, 0, 0, 0.664))
+    background: linear-gradient(#212224c2,rgba(0, 0, 0, 0.808));
+    max-height: 60px;
 }
 
 #navLogo {
     line-height: normal;
     display: block;
-    width: 16px;
-    margin-right: 5px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
 }
+#navLogo2 {
+    display: inline-flex;
+    font-size: larger;
+}
+
+#navLink {
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+    font-weight: 200;
+    font-size: medium;
+}
+
+#navSearch {
+    list-style-type: none;
+    display: inline-block;
+    position:relative;
+}
+
+#search {
+    display: inline-block;
+    position: relative;
+}
+
+#search input[type="text"] {
+    border-radius: 25px;
+    flex: 1;
+    padding: 9px;
+    padding-right: 60px;
+    width: 350px;
+}
+
+.searchBtn {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    height: 80%;
+    border-radius: 10px;
+    width: 80px;
+    background-color: #00acb5ce;
+    color: white;
+    border: none;
+}
+
+#search button + button {
+    right: 90px;
+}
+
