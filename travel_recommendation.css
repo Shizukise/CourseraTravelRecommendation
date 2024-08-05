@@ -1,8 +1,9 @@
 body {
     margin:0;
-    background-image: url('/travelRecommendationExerciseCoursera/static/pexels-evgeny-tchebotarev-1058775-2187456.jpg');
+    background-image: url('/CourseraTravelRecommendation/static/pexels-evgeny-tchebotarev-1058775-2187456.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #navbar {
@@ -77,4 +78,48 @@ body {
     text-decoration: none;
     color: white;
 
+}
+
+#hero {
+    text-align: left;
+    justify-content: left;
+}
+
+#heroTitle {
+    margin: 40px;
+    margin-left: 80px;
+    color: White;
+    font-size: 100px;
+    line-height: 130px;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+}
+
+#heroP {
+    margin: 40px;
+    margin-left: 80px;
+    color: White;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    justify-content: left;
+    text-align: left;
+}
+
+#heroSocialLinks {
+    margin:40px;
+    margin-left: 80px;
+}
+
+#socialLinks li img {
+    max-width: 30px;
+}
+#socialLinks li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#socialLinks {
+    list-style: none;
 }
