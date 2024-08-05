@@ -161,3 +161,16 @@ body {
     background-color: #393e4686;
     padding: 15px;
 }
+
+#team {
+    list-style: none;
+}
+
+.position {
+    background-color:#00ADB5 ;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 40px ;
+    border: solid 1px #393e4686;
+}
