@@ -174,3 +174,48 @@ body {
     margin-left: 40px ;
     border: solid 1px #393e4686;
 }
+
+
+#contactUsTitle {
+    margin: 40px;
+    color: #EEEEEE;
+    font-size: 100px;
+    line-height: 130px;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+}
+
+#contactUsForm {
+    padding: 25px;
+    background-color: #393e46b0;
+    display:grid;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-weight: 200;
+    color: white;
+    font-weight: 200;
+}
+
+#contactUsForm input {
+    margin-bottom: 15px;
+}
+
+#name {
+    color: white;
+    background-color: #393e460a;
+    border: solid 0.5px #eeeeee98;
+}
+
+#email {
+    color: white;
+    background-color: #393e460a;
+    border: solid 1px #eeeeee91;
+}
+
+#message {
+    color: white;
+    background-color: #393e460a;
+    border: solid 1px #eeeeee86;
+}

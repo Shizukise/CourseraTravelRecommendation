@@ -1,0 +1,244 @@
+{
+    "Countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://example.com/sydney.jpg",
+            "description": "A vibrant city known for the iconic Sydney Opera House and beautiful beaches.",
+            "keywords": ["beach", "opera house", "harbor"]
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://example.com/melbourne.jpg",
+            "description": "A city famous for its art and culture, coffee scene, and sports events.",
+            "keywords": ["art", "coffee", "sports"]
+          },
+          {
+            "name": "Brisbane, Australia",
+            "imageUrl": "https://example.com/brisbane.jpg",
+            "description": "A subtropical city with a relaxed atmosphere, known for its river and outdoor activities.",
+            "keywords": ["river", "outdoor activities", "subtropical"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Canada",
+        "cities": [
+          {
+            "name": "Toronto, Canada",
+            "imageUrl": "https://example.com/toronto.jpg",
+            "description": "A diverse city known for its CN Tower, waterfront, and vibrant neighborhoods.",
+            "keywords": ["CN Tower", "waterfront", "diverse"]
+          },
+          {
+            "name": "Vancouver, Canada",
+            "imageUrl": "https://example.com/vancouver.jpg",
+            "description": "A coastal city surrounded by mountains, known for its natural beauty and film industry.",
+            "keywords": ["mountains", "nature", "film industry"]
+          },
+          {
+            "name": "Montreal, Canada",
+            "imageUrl": "https://example.com/montreal.jpg",
+            "description": "A city with a rich cultural scene, known for its French influence and festivals.",
+            "keywords": ["culture", "French influence", "festivals"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://example.com/tokyo.jpg",
+            "description": "A bustling metropolis known for its skyscrapers, shopping, and technology.",
+            "keywords": ["skyscrapers", "shopping", "technology"]
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://example.com/kyoto.jpg",
+            "description": "A city known for its classical temples, traditional tea houses, and gardens.",
+            "keywords": ["temples", "tea houses", "gardens"]
+          },
+          {
+            "name": "Osaka, Japan",
+            "imageUrl": "https://example.com/osaka.jpg",
+            "description": "A city famous for its modern architecture, nightlife, and street food.",
+            "keywords": ["architecture", "nightlife", "street food"]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "France",
+        "cities": [
+          {
+            "name": "Paris, France",
+            "imageUrl": "https://example.com/paris.jpg",
+            "description": "The capital city known for the Eiffel Tower, art, and cuisine.",
+            "keywords": ["Eiffel Tower", "art", "cuisine"]
+          },
+          {
+            "name": "Nice, France",
+            "imageUrl": "https://example.com/nice.jpg",
+            "description": "A coastal city known for its Mediterranean beaches and charming old town.",
+            "keywords": ["beaches", "Mediterranean", "old town"]
+          },
+          {
+            "name": "Lyon, France",
+            "imageUrl": "https://example.com/lyon.jpg",
+            "description": "A city known for its historical and architectural landmarks, and rich gastronomy.",
+            "keywords": ["history", "architecture", "gastronomy"]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Italy",
+        "cities": [
+          {
+            "name": "Rome, Italy",
+            "imageUrl": "https://example.com/rome.jpg",
+            "description": "The capital city known for its ancient ruins, art, and Vatican City.",
+            "keywords": ["ancient ruins", "art", "Vatican City"]
+          },
+          {
+            "name": "Venice, Italy",
+            "imageUrl": "https://example.com/venice.jpg",
+            "description": "A city famous for its canals, gondolas, and romantic atmosphere.",
+            "keywords": ["canals", "gondolas", "romantic"]
+          },
+          {
+            "name": "Florence, Italy",
+            "imageUrl": "https://example.com/florence.jpg",
+            "description": "A city known for its Renaissance art and architecture.",
+            "keywords": ["Renaissance", "art", "architecture"]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://example.com/rio.jpg",
+            "description": "A city known for its carnival, beaches, and Christ the Redeemer statue.",
+            "keywords": ["carnival", "beaches", "Christ the Redeemer"]
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://example.com/saopaulo.jpg",
+            "description": "A sprawling metropolis known for its cultural institutions and vibrant nightlife.",
+            "keywords": ["culture", "nightlife", "metropolis"]
+          },
+          {
+            "name": "Salvador, Brazil",
+            "imageUrl": "https://example.com/salvador.jpg",
+            "description": "A city known for its Afro-Brazilian culture, colonial architecture, and beaches.",
+            "keywords": ["Afro-Brazilian", "colonial architecture", "beaches"]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "United States",
+        "cities": [
+          {
+            "name": "New York City, USA",
+            "imageUrl": "https://example.com/nyc.jpg",
+            "description": "A bustling city known for its iconic skyline, Broadway shows, and diverse culture.",
+            "keywords": ["skyline", "Broadway", "diverse culture"]
+          },
+          {
+            "name": "Los Angeles, USA",
+            "imageUrl": "https://example.com/la.jpg",
+            "description": "A city famous for Hollywood, beaches, and entertainment industry.",
+            "keywords": ["Hollywood", "beaches", "entertainment"]
+          },
+          {
+            "name": "Chicago, USA",
+            "imageUrl": "https://example.com/chicago.jpg",
+            "description": "Known for its stunning architecture, jazz music, and deep-dish pizza.",
+            "keywords": ["architecture", "jazz", "pizza"]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "United Kingdom",
+        "cities": [
+          {
+            "name": "London, UK",
+            "imageUrl": "https://example.com/london.jpg",
+            "description": "A historic city known for its landmarks like the Big Ben, London Eye, and cultural diversity.",
+            "keywords": ["Big Ben", "London Eye", "diversity"]
+          },
+          {
+            "name": "Edinburgh, UK",
+            "imageUrl": "https://example.com/edinburgh.jpg",
+            "description": "A city known for its medieval old town, festivals, and castle.",
+            "keywords": ["medieval", "festivals", "castle"]
+          },
+          {
+            "name": "Manchester, UK",
+            "imageUrl": "https://example.com/manchester.jpg",
+            "description": "Known for its rich industrial heritage and vibrant music scene.",
+            "keywords": ["industrial heritage", "music", "football"]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Germany",
+        "cities": [
+          {
+            "name": "Berlin, Germany",
+            "imageUrl": "https://example.com/berlin.jpg",
+            "description": "The capital known for its history, nightlife, and modern art.",
+            "keywords": ["history", "nightlife", "modern art"]
+          },
+          {
+            "name": "Munich, Germany",
+            "imageUrl": "https://example.com/munich.jpg",
+            "description": "Famous for Oktoberfest, beer gardens, and beautiful architecture.",
+            "keywords": ["Oktoberfest", "beer", "architecture"]
+          },
+          {
+            "name": "Hamburg, Germany",
+            "imageUrl": "https://example.com/hamburg.jpg",
+            "description": "A port city known for its harbor area, music, and maritime culture.",
+            "keywords": ["harbor", "music", "maritime"]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "China",
+        "cities": [
+          {
+            "name": "Beijing, China",
+            "imageUrl": "https://example.com/beijing.jpg",
+            "description": "The capital city known for its imperial palaces, history, and modern architecture.",
+            "keywords": ["imperial palaces", "history", "modern architecture"]
+          },
+          {
+            "name": "Shanghai, China",
+            "imageUrl": "https://example.com/shanghai.jpg",
+            "description": "A global financial hub known for its skyline, the Bund, and bustling markets.",
+            "keywords": ["skyline", "the Bund", "markets"]
+          },
+          {
+            "name": "Guangzhou, China",
+            "imageUrl": "https://example.com/guangzhou.jpg",
+            "description": "A city known for its Cantonese cuisine, trade fairs, and rich history.",
+            "keywords": ["Cantonese cuisine", "trade fairs", "history"]
+          }
+        ]
+      }
+    ]
+  }
