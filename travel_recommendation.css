@@ -1,6 +1,6 @@
 body {
     margin:0;
-    background-image: url('/CourseraTravelRecommendation/static/pexels-evgeny-tchebotarev-1058775-2187456.jpg');
+    background-image: url('/static/pexels-evgeny-tchebotarev-1058775-2187456.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -218,4 +218,39 @@ body {
     color: white;
     background-color: #393e460a;
     border: solid 1px #eeeeee86;
+}
+
+
+.cityImage {
+    max-width: 10vw;
+    max-height: 15vh;
+}
+
+.citiesUl li {
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 25vw;
+    padding:15px;
+    color: white;
+};
+
+.citiesUl p {
+    max-width: 33vw;
+}
+
+#result {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000c7;
+}
+
+#result h2 {
+    padding: 20px;
+    color: white;
+}
+
+#result p {
+    color: white;
 }
