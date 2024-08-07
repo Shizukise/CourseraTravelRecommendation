@@ -132,3 +132,5 @@ function search() {
 function cleanScreen () {
     resultDiv.innerHTML = ""
 }
+
+document.getElementById('searchCityBtn').addEventListener('click', cleanScreen);
