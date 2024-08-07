@@ -1,9 +1,8 @@
 var searchWhat;
 let toSearchFor;
-const beachRecommendations = ['/static/praia1Brazil.jpg', "/static/praia2Australia"]
-const templeRecommendations = ['/static/temple1osaka.jpg', "/static/temple2shanghai"]
 const resultDiv = document.getElementById('result')
 const countries = [];
+const recommendations = []
 
 
 function search() {
@@ -85,10 +84,45 @@ function search() {
                         resultDiv.appendChild(title)
                         resultDiv.appendChild(description)
                         resultDiv.appendChild(cities)
+                    };
+                };
+            };
+            for (let i = 0 ; i < data.Countries.length; i++) {
+                for (city of data.Countries[i].cities) {
+                    for (keyword of city.keywords) {
+                        console.log(keyword)
+                        if (searchWhat === keyword) {
+                            recommendations.push(city)
+                        }
                     }
                 }
             }
-            
+            console.log(recommendations)
+            if (recommendations.length > 0) {
+                for (recommendation of recommendations) {
+                    const recommendationsC = document.createElement('ul')
+                    recommendationsC.className = "citiesUl"
+                    let newCity = document.createElement('li')
+                    let newCityName = document.createElement('h4')
+                    newCityName.innerHTML = recommendation.name
+                    newCity.appendChild(newCityName)
+                    let newCityDescription = document.createElement('p')
+                    newCityDescription.innerHTML = recommendation.description
+                    newCity.appendChild(newCityDescription)
+                    let newCityImage = document.createElement('img')
+                    newCityImage.src = recommendation.imageUrl
+                    newCityImage.className = "cityImage"
+                    newCityBookBtn = document.createElement('button');
+                    newCityBookBtn.className = "bookBtn"
+                    newCityBookBtn.innerHTML = `Book trip to ${recommendation.name}`
+                    newCity.appendChild(newCityName)
+                    newCity.appendChild(newCityDescription)
+                    newCity.appendChild(newCityImage)
+                    newCity.appendChild(newCityBookBtn)
+                    recommendationsC.appendChild(newCity)
+                    resultDiv.appendChild(recommendationsC)
+                }
+            }
 
     });
 };

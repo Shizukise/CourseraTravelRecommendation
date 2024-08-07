@@ -62,13 +62,13 @@
             "name": "Kyoto",
             "imageUrl": "/static/kyoto.jpg",
             "description": "A city known for its classical temples, traditional tea houses, and gardens.",
-            "keywords": ["temples", "tea houses", "gardens"]
+            "keywords": ["temples", "tea houses", "gardens","temple"]
           },
           {
             "name": "Osaka",
             "imageUrl": "/static/osaka.jpg",
             "description": "A city famous for its modern architecture, nightlife, and street food.",
-            "keywords": ["architecture", "nightlife", "street food"]
+            "keywords": ["architecture", "nightlife", "street food","temple"]
           }
         ]
       },
@@ -224,7 +224,7 @@
             "name": "Beijing",
             "imageUrl": "/static/beijing.jpg",
             "description": "The capital city known for its imperial palaces, history, and modern architecture.",
-            "keywords": ["imperial palaces", "history", "modern architecture"]
+            "keywords": ["imperial palaces", "history", "modern architecture","temple"]
           },
           {
             "name": "Shanghai",
