@@ -51,6 +51,7 @@ function search() {
                     resultDiv.appendChild(title)
                     resultDiv.appendChild(description)
                     resultDiv.appendChild(cities)
+                    break;
                 }
             }
             for (let i = 0 ; i < data.Countries.length; i++) {
