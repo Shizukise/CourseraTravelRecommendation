@@ -14,7 +14,7 @@ function search() {
             searchWhat = document.getElementById("searchInput").value;
             console.log("to search: ", searchWhat)
             for (let i = 0 ; i < data.Countries.length; i++) {
-                if (searchWhat === data.Countries[i].name.toLowerCase()) {
+                if (searchWhat.toLowerCase() === data.Countries[i].name.toLowerCase()) {
                     toSearchFor = data.Countries[i].name
                     let citiesToGo = []
                     for (city of data.Countries[i]["cities"]) {
@@ -40,14 +40,52 @@ function search() {
                         let newCityImage = document.createElement('img')
                         newCityImage.src = data.Countries[i].cities[j].imageUrl
                         newCityImage.className = "cityImage"
+                        newCityBookBtn = document.createElement('button');
+                        newCityBookBtn.className = "bookBtn"
+                        newCityBookBtn.innerHTML = `Book trip to ${data.Countries[i].cities[j].name}`
                         newCity.appendChild(newCityName)
                         newCity.appendChild(newCityDescription)
                         newCity.appendChild(newCityImage)
+                        newCity.appendChild(newCityBookBtn)
                         cities.appendChild(newCity)
                     }
                     resultDiv.appendChild(title)
                     resultDiv.appendChild(description)
                     resultDiv.appendChild(cities)
+                }
+            }
+            for (let i = 0 ; i < data.Countries.length; i++) {
+                for (country of data.Countries[i].cities) {
+                    if (searchWhat.toLowerCase() === country.name.toLowerCase()) {
+                        const title = document.createElement('h2')
+                        title.innerHTML = `${country.name}`
+                        const description = document.createElement('p')
+                        description.innerHTML = `Find places to go in ${country.name}! <br> Cities to discover: `
+                        const cities = document.createElement('ul')
+                        cities.className = "citiesUl"
+                        console.log("found city")
+                        let newCity = document.createElement('li')
+                        let newCityName = document.createElement('h4')
+                        newCityName.innerHTML = country.name
+                        newCity.appendChild(newCityName)
+                        let newCityDescription = document.createElement('p')
+                        newCityDescription.innerHTML = country.description
+                        newCity.appendChild(newCityDescription)
+                        let newCityImage = document.createElement('img')
+                        newCityImage.src = country.imageUrl
+                        newCityImage.className = "cityImage"
+                        newCityBookBtn = document.createElement('button');
+                        newCityBookBtn.className = "bookBtn"
+                        newCityBookBtn.innerHTML = `Book trip to ${country.name}`
+                        newCity.appendChild(newCityName)
+                        newCity.appendChild(newCityDescription)
+                        newCity.appendChild(newCityImage)
+                        newCity.appendChild(newCityBookBtn)
+                        cities.appendChild(newCity)
+                        resultDiv.appendChild(title)
+                        resultDiv.appendChild(description)
+                        resultDiv.appendChild(cities)
+                    }
                 }
             }
             

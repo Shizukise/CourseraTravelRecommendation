@@ -222,8 +222,9 @@ body {
 
 
 .cityImage {
-    max-width: 10vw;
-    max-height: 15vh;
+    max-width: 20vw;
+    max-height: 20vh;
+    padding-bottom: 40px;
 }
 
 .citiesUl li {
@@ -232,6 +233,7 @@ body {
     max-width: 25vw;
     padding:15px;
     color: white;
+    font-size: larger;
 };
 
 .citiesUl p {
@@ -247,10 +249,25 @@ body {
 }
 
 #result h2 {
+    font-size: larger;
     padding: 20px;
     color: white;
 }
 
 #result p {
     color: white;
+}
+
+.bookBtn {
+    margin-top: 5px;
+    background-color: #00ADB5;
+    border: solid 1px #EEEEEE;
+    color: white;
+    display: inline;
+    padding: 10px;
+    margin-right: 45px;
+}
+
+.bookBtn:hover {
+    background-color: #04e2ee;
 }
