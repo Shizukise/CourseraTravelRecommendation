@@ -84,6 +84,7 @@ function search() {
                         resultDiv.appendChild(title)
                         resultDiv.appendChild(description)
                         resultDiv.appendChild(cities)
+                        break;
                     };
                 };
             };
@@ -122,12 +123,12 @@ function search() {
                     recommendationsC.appendChild(newCity)
                     resultDiv.appendChild(recommendationsC)
                 }
+            return
             }
 
     });
 };
 
 function cleanScreen () {
-    resultDiv.textContent = ""
     resultDiv.innerHTML = ""
 }
